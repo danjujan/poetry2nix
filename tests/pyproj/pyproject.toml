@@ -1,14 +1,12 @@
 [tool.poetry]
-name = "test_pyqt5"
+name = "pyproj-test"
 version = "0.1.0"
 description = ""
-authors = ["adisbladis <adisbladis@gmail.com>"]
+authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-PyQt5 = "^5.15.6"
-
-[tool.poetry.dev-dependencies]
+python = "^3.11"
+pyproj = "3.5.0"
 
 [build-system]
 requires = ["poetry-core"]

@@ -3,13 +3,11 @@ name = "ml-stack"
 version = "0.1.0"
 description = ""
 authors = ["Star Dorminey <sterling.dorminey@gmail.com>"]
-readme = "README.md"
-packages = [{include = "ml_stack"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-torch = "2.0.0"
-torchvision = "0.15.1"
+torch = "^2.1.2"
+torchvision = "^0.16"
 
 [build-system]
 requires = ["poetry-core"]
